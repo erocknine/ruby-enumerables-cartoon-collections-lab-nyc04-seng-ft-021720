@@ -13,6 +13,6 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  array.find.each {|x| x == cheese_types.each}
+  array.find {|x| x == cheese_types.each}
   
 end
